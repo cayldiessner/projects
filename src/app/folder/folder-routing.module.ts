@@ -23,6 +23,10 @@ const routes: Routes = [
   {
     path: 'hw1prob12',
     loadChildren: () => import('./hw1_12/hw1prob12/hw1prob12.module').then( m => m.Hw1prob12PageModule)
+  },
+  {
+    path: 'magic8ball',
+    loadChildren: () => import('./magic8ball/magic8ball/magic8ball.module').then( m => m.Magic8ballPageModule)
   }
 ];
 
